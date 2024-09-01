@@ -144,7 +144,7 @@ data_limit= 0 ==> Unlimited subscription
 /ss {message text}
 ```
 
-## بلاک کردم یوزر
+## بلاک کردن یوزر
 ```
 /block {telegram user id}
 ```
@@ -157,4 +157,14 @@ data_limit= 0 ==> Unlimited subscription
 ## چک کردن بلاک بودن یا نبودن یوزر
 ```
 /isblock {telegram user id}
+```
+
+## چک کردن وضعیت فروش
+```
+/sales
+```
+
+## ریست کردن کانفیگ های تست برای همه ی یوزر ها
+```
+/reset_test
 ```
