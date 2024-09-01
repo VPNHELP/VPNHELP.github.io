@@ -143,3 +143,18 @@ data_limit= 0 ==> Unlimited subscription
 ```
 /ss {message text}
 ```
+
+## بلاک کردم یوزر
+```
+/block {telegram user id}
+```
+
+## رفع بلاک و آنبلاک یوزر
+```
+/unblock {telegram user id}
+```
+
+## چک کردن بلاک بودن یا نبودن یوزر
+```
+/isblock {telegram user id}
+```
