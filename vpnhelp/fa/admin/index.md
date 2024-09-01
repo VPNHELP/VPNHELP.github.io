@@ -15,7 +15,7 @@
 به طور مثال:
 
 ```
-/add 623359662 100000
+/addbalance 623359662 100000
 ```
 
 در صورتی که همه چیز درست باشد کاربر 623359662 صد هزارتومان شارژ می‌شود و پیام ok! برای شما ارسال می‌شود.
@@ -25,7 +25,7 @@
 کافیست دستور را به صورت زیر به ربات ارسال کنید:
 
 ```
-/addbalance {telegram user id} {type of service} {time in month} {data limit}
+/add {telegram user id} {type of service} {time in month} {data limit}
 ```
 
 data_limit= 0 ==> Unlimited subscription
