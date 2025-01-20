@@ -31,7 +31,7 @@
 ## Mac
  - [Streisand](/ru/docs/streisand) ✅
 
- - [Nekoray](/ru/docs/nekoray-mac) ❌
+ - Nekoray ❌
 
  - V2Box ❌
 

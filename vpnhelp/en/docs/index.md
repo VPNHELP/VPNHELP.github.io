@@ -32,7 +32,7 @@ Click on the program name to see installation and setup instructions.
 ## Mac
  - [Streisand](/en/docs/streisand) ✅
 
- - [Nekoray](/en/docs/nekoray-mac) ❌
+ - Nekoray ❌
 
  - V2Box ❌
 

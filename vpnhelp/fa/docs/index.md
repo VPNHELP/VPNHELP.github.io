@@ -10,44 +10,44 @@
 
 ## IOS
 
- - [Streisand](/fa//docs/streisand) ✅
+ - [Streisand](/fa/docs/streisand) ✅
 
- - [Hiddify](/fa//docs/hiddify) ❌
+ - [Hiddify](/fa/docs/hiddify) ❌
 
  - Fair ❌
 
 ## Android
 
- - [v2rayNG](/fa//docs/v2rayNG) ✅
+ - [v2rayNG](/fa/docs/v2rayNG) ✅
 
- - [Hiddify](/fa//docs/hiddify) ❌
+ - [Hiddify](/fa/docs/hiddify) ❌
 
 ## Windows
- - [v2rayN](/fa//docs/v2rayN) ✅
+ - [v2rayN](/fa/docs/v2rayN) ✅
 
- - [Nekoray](/fa//docs/nekoray-win) ❌
+ - [Nekoray](/fa/docs/nekoray-win) ❌
 
- - [Hiddify](/fa//docs/hiddify-win) ❌
+ - [Hiddify](/fa/docs/hiddify-win) ❌
 
 ## Mac
- - [Streisand](/fa//docs/streisand) ✅
+ - [Streisand](/fa/docs/streisand) ✅
 
- - [Nekoray](/fa//docs/nekoray-mac) ❌
+ - Nekoray ❌
 
  - V2Box ❌
 
  - FoXray ❌
 
 ## Linux
- - [Nekoray](/fa//docs/nekoray-win) ✅
+ - [Nekoray](/fa/docs/nekoray-win) ✅
 
 
 
 ## باقی آموزش‌ها
 
-[سوالات متداول](/fa//docs/qa)
+[سوالات متداول](/fa/docs/qa)
 
-[آموزش خرید و تمدید سرویس و استفاده از ربات](/fa//docs/bot)
+[آموزش خرید و تمدید سرویس و استفاده از ربات](/fa/docs/bot)
 
 آموزش فعال کردن ipv6 روی [IOS](/fa/docs/ipv6-apple) یا [Android](/fa/docs/ipv6-samsung)
 
