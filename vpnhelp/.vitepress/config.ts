@@ -1,68 +1,65 @@
-import { defineConfig } from 'vitepress'
+import { DefaultTheme, LocaleSpecificConfig, defineConfig } from 'vitepress'
+import englishThemeConfig from '../en/config'
 import persianThemeConfig from '../fa/config'
+import russianThemeConfig from '../ru/config'
+
+type ThemeConfig = LocaleSpecificConfig<DefaultTheme.Config> & { label: string; link?: string }
 
 export const BASE = '/'
 
-const englishThemeConfig = {
-  sidebar: [
-    // {
-    //   text: 'Examples',
-    //   items: [
-    //     { text: 'Markdown Examples', link: '/en/documentation/' },
-    //     { text: 'Runtime API Examples', link: '/en/examples/' },
-    //   ],
-    // },
-  ],
-  nav: [
-    { text: 'Home', link: '/en/' },
-    { text: 'Documentation', link: '/en/documentation/' },
-    { text: 'Examples', link: '/en/examples/' },
-  ],
-
-  footer: {
-    message: 'Released under AGPL-3.0 License.',
-    copyright: 'Copyright © 2024-present vpngelp.github.io',
-  },
-  /*editLink: {
-    pattern: 'https://github.com/gozargah/gozargah.github.io/edit/master/marzban/:path',
-    text: 'Edit this page on GitHub',
-  },*/
-}
-
-const persianLang = {
+const persianLang: ThemeConfig = {
   label: 'فارسی',
   lang: 'fa',
   dir: 'rtl',
-  title: 'V2Ray Guide ',
+  title: 'vpnhelp',
   description: '',
   link: '/',
   themeConfig: persianThemeConfig,
 }
 
+const englishLang: ThemeConfig = {
+  title: 'vpnhelp',
+  description: '',
+  label: 'English',
+  lang: 'en',
+  link: '/',
+  themeConfig: englishThemeConfig,
+}
+
+const russianLang: ThemeConfig = {
+  title: 'vpnhelp',
+  description: '',
+  label: 'Русский',
+  lang: 'ru',
+  link: '/',
+  themeConfig: russianThemeConfig,
+}
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'V2Ray Guide',
-  description: 'V2Ray client tutorial',
+  title: 'vpnhelp',
+  description: 'Unified Censorship Resistant Solution',
   base: BASE,
   cleanUrls: true,
   lang: 'fa',
   locales: {
-    root: persianLang,
+    // root: englishLang,
     fa: {
       ...persianLang,
       link: '/fa/',
     },
-    en: {
-      label: 'English',
-      lang: 'en',
-      link: '/en/',
-      themeConfig: englishThemeConfig,
-    },
+    en: { ...englishLang, link: '/en/' },
+    ru: { ...russianLang, link: '/ru/' },
   },
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     i18nRouting: true,
     logo: '/images/logo-dark.png',
-    // socialLinks: [{ icon: 'telegram', link: 'https://t.me/guidevpn' }],
+    //socialLinks: [{ icon: 'github', link: 'https://github.com/gozargah/marzban' }],
+    search: {
+      provider: 'local',
+    },
+  },
+  sitemap: {
+    hostname: 'https://vpnhelp.github.io',
   },
 })

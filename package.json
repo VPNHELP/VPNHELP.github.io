@@ -1,16 +1,17 @@
 {
-  "name": "marzban-docs",
+  "name": "vpnhelp-docs",
   "version": "0.1.0",
-  "description": "marzban documentation",
+  "description": "vpnhelp documentation",
+  "type": "module",
   "scripts": {
-    "dev": "NODE_ENV=development vitepress dev vpnhelp --port 3000",
+    "dev": "NODE_ENV=development vitepress dev vpnhelp --port 3000 --host",
     "build": "vitepress build vpnhelp",
     "preview": "vitepress preview vpnhelp --port 3000"
   },
   "author": "",
   "devDependencies": {
     "postcss": "^8.4.24",
-    "vitepress": "^1.0.0-beta.1"
+    "vitepress": "^1.0.0-rc.45"
   },
   "dependencies": {
     "postcss-rtl": "^2.0.0",

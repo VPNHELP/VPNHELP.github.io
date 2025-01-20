@@ -4,7 +4,7 @@ title: Nekoray
 
 # آموزش Nekoray
 
-🐈‍⬛ دانلود از گیت هاب (GitHub) (https://github.com/Matsuridayo/nekoray/releases)
+[🐈‍⬛ دانلود از گیت هاب (GitHub)](https://github.com/Matsuridayo/nekoray/releases/latest)
 
 برای استفاده از نکوری فایل .ZIP را از حالت فشرده خارج کرده و فایل nekoray را اجرا کنید.
 

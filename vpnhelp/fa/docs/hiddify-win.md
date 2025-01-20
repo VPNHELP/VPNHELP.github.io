@@ -4,7 +4,7 @@ title: Hiddify
 
 # آموزش Hiddify
 
-🐈‍⬛️ [دانلود از گیت هاب (GitHub)](https://github.com/hiddify/hiddify-next/releases/download/v0.14.20/hiddify-android-arm7.apk)
+🐈‍⬛️ [دانلود از گیت هاب (GitHub)](https://github.com/hiddify/hiddify-app/releases/latest/download/Hiddify-Windows-Setup-x64.exe)
 
 
 ## اضافه کردن لینک اتصال (subscription)

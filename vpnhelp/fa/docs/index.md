@@ -10,46 +10,46 @@
 
 ## IOS
 
- - [Streisand](https://vpnhelp.github.io/docs/streisand) ✅
+ - [Streisand](/fa//docs/streisand) ✅
 
- - [Hiddify](https://vpnhelp.github.io/docs/hiddify) ❌
+ - [Hiddify](/fa//docs/hiddify) ❌
 
- - [Fair](https://vpnhelp.github.io/docs/fair) ❌
+ - Fair ❌
 
 ## Android
 
- - [v2rayNG](https://vpnhelp.github.io/docs/v2rayNG) ✅
+ - [v2rayNG](/fa//docs/v2rayNG) ✅
 
- - [Hiddify](https://vpnhelp.github.io/docs/hiddify) ❌
+ - [Hiddify](/fa//docs/hiddify) ❌
 
 ## Windows
- - [v2rayN](https://vpnhelp.github.io/docs/v2rayN) ✅
+ - [v2rayN](/fa//docs/v2rayN) ✅
 
- - [Nekoray](https://vpnhelp.github.io/docs/nekoray-win) ❌
+ - [Nekoray](/fa//docs/nekoray-win) ❌
 
- - [Hiddify](https://vpnhelp.github.io/docs/hiddify-win) ❌
+ - [Hiddify](/fa//docs/hiddify-win) ❌
 
 ## Mac
- - [Streisand](https://vpnhelp.github.io/docs/streisand) ✅
+ - [Streisand](/fa//docs/streisand) ✅
 
- - [Nekoray](https://vpnhelp.github.io/docs/nekoray-mac) ❌
+ - [Nekoray](/fa//docs/nekoray-mac) ❌
 
- - [V2Box](https://vpnhelp.github.io/docs/v2box) ❌
+ - V2Box ❌
 
- - [FoXray](https://vpnhelp.github.io/docs/foxray) ❌
+ - FoXray ❌
 
 ## Linux
- - [Nekoray](https://vpnhelp.github.io/docs/nekoray-win) ✅
+ - [Nekoray](/fa//docs/nekoray-win) ✅
 
 
 
 ## باقی آموزش‌ها
 
-[سوالات متداول](https://vpnhelp.github.io/docs/qa)
+[سوالات متداول](/fa//docs/qa)
 
-[آموزش خرید و تمدید سرویس و استفاده از ربات](https://vpnhelp.github.io/docs/bot)
+[آموزش خرید و تمدید سرویس و استفاده از ربات](/fa//docs/bot)
 
-[آموزش فعال کردن ipv6](https://vpnhelp.github.io/docs/ipv6-apple)
+آموزش فعال کردن ipv6 روی [IOS](/fa/docs/ipv6-apple) یا [Android](/fa/docs/ipv6-samsung)
 
 
 

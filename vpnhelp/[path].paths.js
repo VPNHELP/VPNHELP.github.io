@@ -1,5 +1,4 @@
 import fs from 'fs'
-import * as v from 'vitepress'
 
 var walk = function (dir) {
   var results = []
@@ -20,8 +19,8 @@ const developmentContent = (location) => `
 <script setup>
 import {withBase, useRouter} from 'vitepress'
 
-const {go} = useRouter();
-console.log(go)
+const { go } = useRouter();
+
 go(withBase('/fa/${location}'))
 </script>
 `
@@ -32,7 +31,7 @@ export default {
       const path = filePath.replace('./vpnhelp/fa/', '').replace('.md', '')
       return {
         params: { path },
-        content: process.env.NODE_ENV === 'development' ? developmentContent(path) : fs.readFileSync(filePath, { encoding: 'utf8' }),
+        content: developmentContent(path),
       }
     })
   },
